@@ -1,0 +1,538 @@
+.qqface-container {
+    width: 24px;
+    height: 24px;
+    margin-bottom: -5px;
+    position: relative;
+    overflow: hidden;
+    .qqface {
+      width: 280px;
+      position: absolute;
+      &.qqface0 {
+        clip-path: circle(16px at 12px 12px);
+      }
+      &.qqface1 {
+        left: -36px;
+        clip-path: circle(16px at 48px 12px);
+      }
+      &.qqface2 {
+        left: -72px;
+        clip-path: circle(16px at 84px 12px);
+      }
+      &.qqface3 {
+        left: -109px;
+        clip-path: circle(16px at 120px 12px);
+      }
+      &.qqface4 {
+        left: -145px;
+        clip-path: circle(16px at 158px 12px);
+      }
+      &.qqface5 {
+        left: -182px;
+        clip-path: circle(16px at 194px 12px);
+      }
+      &.qqface6 {
+        left: -219px;
+        clip-path: circle(16px at 230px 12px);
+      }
+      &.qqface7 {
+        left: -256px;
+        clip-path: circle(16px at 266px 12px);
+      }
+      &.qqface8 {
+        top: -36px;
+        clip-path: circle(16px at 12px 48px);
+      }
+      &.qqface9 {
+        top: -36px;
+        left: -36px;
+        clip-path: circle(16px at 48px 48px);
+      }
+      &.qqface10 {
+        top: -36px;
+        left: -72px;
+        clip-path: circle(16px at 84px 48px);
+      }
+      &.qqface11 {
+        top: -36px;
+        left: -110px;
+        clip-path: circle(16px at 120px 48px);
+      }
+      &.qqface12 {
+        top: -36px;
+        left: -146px;
+        clip-path: circle(16px at 158px 48px);
+      }
+      &.qqface13 {
+        top: -36px;
+        left: -182px;
+        clip-path: circle(16px at 194px 48px);
+      }
+      &.qqface14 {
+        top: -36px;
+        left: -219px;
+        clip-path: circle(16px at 230px 48px);
+      }
+      &.qqface15 {
+        top: -36px;
+        left: -256px;
+        clip-path: circle(16px at 266px 48px);
+      }
+      &.qqface17 {
+        top: -74px;
+        clip-path: circle(16px at 12px 84px);
+      }
+      &.qqface18 {
+        top: -74px;
+        left: -36px;
+        clip-path: circle(16px at 48px 84px);
+      }
+      &.qqface19 {
+        top: -74px;
+        left: -72px;
+        clip-path: circle(16px at 84px 84px);
+      }
+      &.qqface20 {
+        top: -74px;
+        left: -109px;
+        clip-path: circle(16px at 120px 84px);
+      }
+      &.qqface21 {
+        top: -74px;
+        left: -145px;
+        clip-path: circle(16px at 158px 84px);
+      }
+      &.qqface22 {
+        top: -74px;
+        left: -182px;
+        clip-path: circle(16px at 194px 84px);
+      }
+      &.qqface23 {
+        top: -74px;
+        left: -219px;
+        clip-path: circle(16px at 230px 84px);
+      }
+      &.qqface25 {
+        top: -74px;
+        left: -256px;
+        clip-path: circle(16px at 266px 84px);
+      }
+      &.qqface26 {
+        top: -110px;
+        clip-path: circle(16px at 12px 121px);
+      }
+      &.qqface28 {
+        top: -110px;
+        left: -36px;
+        clip-path: circle(16px at 48px 121px);
+      }
+      &.qqface29 {
+        top: -110px;
+        left: -72px;
+        clip-path: circle(16px at 84px 121px);
+      }
+      &.qqface31 {
+        top: -110px;
+        left: -110px;
+        clip-path: circle(16px at 120px 121px);
+      }
+      &.qqface32 {
+        top: -110px;
+        left: -146px;
+        clip-path: circle(16px at 158px 121px);
+      }
+      &.qqface33 {
+        top: -110px;
+        left: -182px;
+        clip-path: circle(16px at 194px 121px);
+      }
+      &.qqface34 {
+        top: -110px;
+        left: -219px;
+        clip-path: circle(16px at 230px 121px);
+      }
+      &.qqface36 {
+        top: -110px;
+        left: -256px;
+        clip-path: circle(16px at 266px 121px);
+      }
+      &.qqface37 {
+        top: -147px;
+        clip-path: circle(16px at 12px 157px);
+      }
+      &.qqface38 {
+        top: -147px;
+        left: -36px;
+        clip-path: circle(16px at 48px 157px);
+      }
+      &.qqface39 {
+        top: -147px;
+        left: -73px;
+        clip-path: circle(16px at 85px 160px);
+      }
+      &.qqface40 {
+        top: -147px;
+        left: -109px;
+        clip-path: circle(16px at 120px 157px);
+      }
+      &.qqface41 {
+        top: -147px;
+        left: -145px;
+        clip-path: circle(16px at 158px 157px);
+      }
+      &.qqface42 {
+        top: -147px;
+        left: -183px;
+        clip-path: circle(16px at 194px 157px);
+      }
+      &.qqface44 {
+        top: -147px;
+        left: -219px;
+        clip-path: circle(16px at 230px 157px);
+      }
+      &.qqface46 {
+        top: -147px;
+        left: -256px;
+        clip-path: circle(16px at 266px 157px);
+      }
+      &.qqface48 {
+        top: -184px;
+        clip-path: circle(16px at 12px 196px);
+      }
+      &.qqface49 {
+        top: -184px;
+        left: -36px;
+        clip-path: circle(16px at 48px 196px);
+      }
+      &.qqface50 {
+        top: -184px;
+        left: -72px;
+        clip-path: circle(16px at 84px 196px);
+      }
+      &.qqface51 {
+        top: -184px;
+        left: -109px;
+        clip-path: circle(16px at 120px 196px);
+      }
+      &.qqface52 {
+        top: -184px;
+        left: -145px;
+        clip-path: circle(16px at 158px 196px);
+      }
+      &.qqface54 {
+        top: -184px;
+        left: -182px;
+        clip-path: circle(16px at 194px 196px);
+      }
+      &.qqface53 {
+        top: -184px;
+        left: -219px;
+        clip-path: circle(16px at 230px 196px);
+      }
+      &.qqface47 {
+        top: -184px;
+        left: -256px;
+        clip-path: circle(16px at 266px 198px);
+      }
+      &.qqface35 {
+        top: -222px;
+        clip-path: circle(16px at 12px 234px);
+      }
+      &.qqface16 {
+        top: -222px;
+        left: -36px;
+        clip-path: circle(16px at 48px 234px);
+      }
+      &.qqface45 {
+        top: -222px;
+        left: -72px;
+        clip-path: circle(16px at 84px 234px);
+      }
+      &.qqface24 {
+        top: -222px;
+        left: -109px;
+        clip-path: circle(16px at 120px 234px);
+      }
+      &.qqface27 {
+        top: -222px;
+        left: -145px;
+        clip-path: circle(16px at 158px 234px);
+      }
+      &.qqface30 {
+        top: -222px;
+        left: -182px;
+        clip-path: circle(16px at 194px 234px);
+      }
+      &.qqface43 {
+        top: -222px;
+        left: -219px;
+        clip-path: circle(16px at 230px 234px);
+      }
+      &.qqface55 {
+        top: -222px;
+        left: -256px;
+        clip-path: circle(16px at 266px 234px);
+      }
+      &.qqface56 {
+        top: -258px;
+        clip-path: circle(16px at 12px 270px);
+      }
+      &.qqface57 {
+        top: -258px;
+        left: -36px;
+        clip-path: circle(16px at 48px 270px);
+      }
+      &.qqface58 {
+        top: -258px;
+        left: -72px;
+        clip-path: circle(16px at 84px 270px);
+      }
+      &.qqface59 {
+        top: -258px;
+        left: -109px;
+        clip-path: circle(16px at 120px 270px);
+      }
+      &.qqface60 {
+        top: -258px;
+        left: -145px;
+        clip-path: circle(16px at 158px 270px);
+      }
+      &.qqface61 {
+        top: -258px;
+        left: -182px;
+        clip-path: circle(16px at 194px 270px);
+      }
+      &.qqface62 {
+        top: -258px;
+        left: -219px;
+        clip-path: circle(16px at 230px 270px);
+      }
+      &.qqface74 {
+        top: -258px;
+        left: -256px;
+        clip-path: circle(16px at 266px 270px);
+      }
+      &.qqface63 {
+        top: -294px;
+        clip-path: circle(16px at 12px 306px);
+      }
+      &.qqface64 {
+        top: -294px;
+        left: -36px;
+        clip-path: circle(16px at 48px 306px);
+      }
+      &.qqface65 {
+        top: -294px;
+        left: -72px;
+        clip-path: circle(16px at 84px 306px);
+      }
+      &.qqface66 {
+        top: -294px;
+        left: -109px;
+        clip-path: circle(16px at 120px 306px);
+      }
+      &.qqface67 {
+        top: -294px;
+        left: -145px;
+        clip-path: circle(16px at 158px 306px);
+      }
+      &.qqface68 {
+        top: -294px;
+        left: -182px;
+        clip-path: circle(16px at 194px 306px);
+      }
+      &.qqface69 {
+        top: -294px;
+        left: -219px;
+        clip-path: circle(16px at 230px 306px);
+      }
+      &.qqface70 {
+        top: -294px;
+        left: -256px;
+        clip-path: circle(16px at 266px 306px);
+      }
+      &.qqface71 {
+        top: -330px;
+        clip-path: circle(16px at 12px 342px);
+      }
+      &.qqface72 {
+        top: -330px;
+        left: -36px;
+        clip-path: circle(16px at 48px 342px);
+      }
+      &.qqface73 {
+        top: -330px;
+        left: -73px;
+        clip-path: circle(16px at 84px 342px);
+      }
+      &.qqface75 {
+        top: -330px;
+        left: -109px;
+        clip-path: circle(16px at 120px 342px);
+      }
+      &.qqface76 {
+        top: -330px;
+        left: -145px;
+        clip-path: circle(16px at 158px 342px);
+      }
+      &.qqface77 {
+        top: -330px;
+        left: -182px;
+        clip-path: circle(16px at 194px 342px);
+      }
+      &.qqface78 {
+        top: -330px;
+        left: -219px;
+        clip-path: circle(16px at 230px 342px);
+      }
+      &.qqface79 {
+        top: -330px;
+        left: -256px;
+        clip-path: circle(16px at 266px 342px);
+      }
+      &.qqface80 {
+        top: -366px;
+        clip-path: circle(16px at 12px 378px);
+      }
+      &.qqface81 {
+        top: -366px;
+        left: -36px;
+        clip-path: circle(16px at 48px 378px);
+      }
+      &.qqface82 {
+        top: -366px;
+        left: -72px;
+        clip-path: circle(16px at 84px 378px);
+      }
+      &.qqface83 {
+        top: -366px;
+        left: -109px;
+        clip-path: circle(16px at 120px 378px);
+      }
+      &.qqface84 {
+        top: -366px;
+        left: -145px;
+        clip-path: circle(16px at 158px 378px);
+      }
+      &.qqface85 {
+        top: -366px;
+        left: -182px;
+        clip-path: circle(16px at 194px 378px);
+      }
+      &.qqface86 {
+        top: -366px;
+        left: -219px;
+        clip-path: circle(16px at 230px 378px);
+      }
+      &.qqface87 {
+        top: -366px;
+        left: -256px;
+        clip-path: circle(16px at 266px 378px);
+      }
+      &.qqface88 {
+        top: -404px;
+        clip-path: circle(16px at 12px 416px);
+      }
+      &.qqface89 {
+        top: -404px;
+        left: -36px;
+        clip-path: circle(16px at 48px 416px);
+      }
+      &.qqface90 {
+        top: -404px;
+        left: -72px;
+        clip-path: circle(16px at 84px 416px);
+      }
+      &.qqface91 {
+        top: -404px;
+        left: -109px;
+        clip-path: circle(16px at 120px 416px);
+      }
+      &.qqface92 {
+        top: -404px;
+        left: -145px;
+        clip-path: circle(16px at 158px 416px);
+      }
+      &.qqface93 {
+        top: -404px;
+        left: -182px;
+        clip-path: circle(16px at 194px 416px);
+      }
+      &.qqface94 {
+        top: -404px;
+        left: -219px;
+        clip-path: circle(16px at 230px 416px);
+      }
+      &.qqface95 {
+        top: -404px;
+        left: -256px;
+        clip-path: circle(16px at 267px 416px);
+      }
+      &.qqface96 {
+        top: -441px;
+        clip-path: circle(16px at 12px 452px);
+      }
+      &.qqface97 {
+        top: -441px;
+        left: -36px;
+        clip-path: circle(16px at 48px 452px);
+      }
+      &.qqface98 {
+        top: -441px;
+        left: -72px;
+        clip-path: circle(16px at 84px 452px);
+      }
+      &.qqface99 {
+        top: -441px;
+        left: -109px;
+        clip-path: circle(16px at 120px 452px);
+      }
+      &.qqface100 {
+        top: -441px;
+        left: -145px;
+        clip-path: circle(16px at 158px 452px);
+      }
+      &.qqface101 {
+        top: -441px;
+        left: -182px;
+        clip-path: circle(16px at 194px 452px);
+      }
+      &.qqface102 {
+        top: -441px;
+        left: -219px;
+        clip-path: circle(16px at 230px 452px);
+      }
+      &.qqface103 {
+        top: -441px;
+        left: -256px;
+        clip-path: circle(16px at 266px 452px);
+      }
+      &.qqface104 {
+        top: -477px;
+        clip-path: circle(16px at 12px 489px);
+      }
+      &.qqface105 {
+        top: -477px;
+        left: -36px;
+        clip-path: circle(16px at 48px 489px);
+      }
+      &.qqface106 {
+        top: -477px;
+        left: -72px;
+        clip-path: circle(16px at 84px 489px);
+      }
+      &.qqface107 {
+        top: -477px;
+        left: -109px;
+        clip-path: circle(16px at 120px 489px);
+      }
+      &.qqface108 {
+        top: -477px;
+        left: -145px;
+        clip-path: circle(16px at 158px 489px);
+      }
+    }
+    &:after {
+      content: "";
+    }
+  }
+  
