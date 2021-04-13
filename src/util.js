@@ -115,20 +115,20 @@ export const qqfaceArr = {
     reverseEmoijMap[qqfaceArr[key]] = key
   }
   
-  export function string2face (words) {
+  export function string2emoji (words) {
     const keys = words.match(/\[(.+?)\]/g) || []
     let result = words
     for (const key of keys) {
       if (qqfaceArr[key]) {
-        result = result.replace(new RegExp(`\\[${key.slice(1, -1)}\\]`, 'g'), `<span style="display: inline-block;" class="qqface-container"><img src="statics/qqface.png" class="qqface qqface${qqfaceArr[key]}"></span>`)
+        result = result.replace(new RegExp(`\\[${key.slice(1, -1)}\\]`, 'g'), `<span style="display: inline-block;" class="qqface-container"><img src="qqface.png" class="qqface qqface${qqfaceArr[key]}"></span>`)
       }
     }
     console.log(result, keys)
     return result
   }
   
-  export function face2string (words) {
-    let result = words.replace(new RegExp(`<span[^>]+><img src="statics/qqface\\.png" class="qqface qqface(\\d+?)"[^>]*></span>`, 'g'), (match, offset) => {
+  export function emoji2string (words) {
+    let result = words.replace(new RegExp(`<span[^>]+><img [^>]*? class="qqface qqface(\\d+?)"[^>]*></span>`, 'g'), (match, offset) => {
       return reverseEmoijMap[offset]
     })
     return result

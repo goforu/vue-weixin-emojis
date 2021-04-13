@@ -1,6 +1,6 @@
 import EmojiPicker from "./components/EmojiPicker.vue";
 
-const EmojiPickerSimple = {
+const EmojiPickerObj = {
  install(Vue) {
   // Let's register our component globally
   // https://vuejs.org/v2/guide/components-registration.html
@@ -13,4 +13,4 @@ if (typeof window !== 'undefined' && window.Vue) {
     window.Vue.use(EmojiPickerSimple);
 }
 
-export default EmojiPickerSimple;
+export default EmojiPickerObj;

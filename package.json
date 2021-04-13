@@ -1,7 +1,7 @@
 {
   "name": "vue-wexin-emojis",
-  "main": ".dist/vue-wexin-emojis.common.js",
-  "version": "0.1.0",
+  "main": "./dist/vue-wexin-emojis.common.js",
+  "version": "0.1.19",
   "private": false,
   "author": {
     "name": "goforu",

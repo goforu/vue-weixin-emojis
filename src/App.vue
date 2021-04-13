@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <EmojiPicker />
+    <demo />
   </div>
 </template>
 
 <script>
-import EmojiPicker from './components/EmojiPicker.vue'
+import Demo from './pages/Demo.vue'
 
 export default {
   name: 'App',
   components: {
-    EmojiPicker
+    Demo
   }
 }
 </script>
