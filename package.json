@@ -1,21 +1,21 @@
 {
-  "name": "vue-wexin-emojis",
-  "main": "./dist/vue-wexin-emojis.common.js",
-  "version": "0.1.19",
+  "name": "vue-weixin-emojis",
+  "main": "./dist/vue-weixin-emojis.common.js",
+  "version": "0.1.22",
   "private": false,
   "author": {
     "name": "goforu",
     "email": "99goforu@gmail.com"
   },
-  "repository": "https://github.com/goforu/vue-wexin-emojis",
-  "bugs": "https://github.com/goforu/vue-wexin-emojis/issues",
-  "keywords": ["wechat", "wexin", "微信", "emoji", "微信表情"],
+  "repository": "https://github.com/goforu/vue-weixin-emojis",
+  "bugs": "https://github.com/goforu/vue-weixin-emojis/issues",
+  "keywords": ["wechat", "weixin", "微信", "emoji", "微信表情"],
   "license": "MIT",
   "files": ["dist/*"],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-library" : "vue-cli-service build --target lib --name vue-wexin-emojis ./src/install.js",
+    "build-library" : "vue-cli-service build --target lib --name vue-weixin-emojis ./src/install.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

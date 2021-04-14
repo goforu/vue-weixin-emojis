@@ -1,6 +1,6 @@
 <template>
     <div>
-        <EmojiPicker v-model="value" url='/qqface.png'/>
+        <EmojiPicker v-model="value" button />
         <div>
             <input v-model="value" />
             <button @click="send">发送</button>
@@ -17,6 +17,9 @@ import { string2emoji } from '../util'
 export default {
     components:{
         EmojiPicker
+    },
+    provide:{
+        emojisUrl: '/qqface.png'
     },
     data(){
         return {

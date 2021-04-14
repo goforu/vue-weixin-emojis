@@ -120,7 +120,7 @@ export const qqfaceArr = {
     let result = words
     for (const key of keys) {
       if (qqfaceArr[key]) {
-        result = result.replace(new RegExp(`\\[${key.slice(1, -1)}\\]`, 'g'), `<span style="display: inline-block;" class="qqface-container"><img src="qqface.png" class="qqface qqface${qqfaceArr[key]}"></span>`)
+        result = result.replace(new RegExp(`\\[${key.slice(1, -1)}\\]`, 'g'), `<span style="display: inline-block;" class="qqface-container"><img src="/qqface.png" class="qqface qqface${qqfaceArr[key]}"></span>`)
       }
     }
     console.log(result, keys)
@@ -132,4 +132,13 @@ export const qqfaceArr = {
       return reverseEmoijMap[offset]
     })
     return result
+  }
+
+  export function deleteEmoji(text) {
+    const reg = /\[[^\]]+?\]$/
+    if(reg.test(text)){
+      return text.replace(reg, '')
+    }else if(text){
+      return text.slice(0, -1)
+    }
   }
