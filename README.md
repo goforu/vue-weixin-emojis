@@ -1,6 +1,7 @@
-# vue-wexin-emojis
+# vue-weixin-emojis
 
 微信表情包插件，查看[在线实例](https://codesandbox.io/s/wizardly-curie-h7mn7?file=/src/App.vue)
+
 <div align=center>
     <img src="https://github.com/goforu/vue-weixin-emojis/raw/main/resources/demo.gif" height="400">
 </div>
