@@ -1,8 +1,9 @@
 # vue-wexin-emojis
 
-微信表情包插件
-
-![demo](https://github.com/goforu/vue-weixin-emojis/raw/main/resources/demo.gif)
+微信表情包插件，查看[在线实例](https://codesandbox.io/s/wizardly-curie-h7mn7?file=/src/App.vue)
+<div align=center>
+    <img src="https://github.com/goforu/vue-weixin-emojis/raw/main/resources/demo.gif" height="400">
+</div>
 
 ## 安装
 ```
@@ -32,3 +33,11 @@ this.value = this.$string2emoji(this.value)
 // 修改已发出的表情，使用以下方法
 this.value = this.$emoji2string(this.value)
 ```
+### 作者与应用
+
+<div align=center>
+    <img src="https://github.com/goforu/vue-weixin-emojis/raw/main/resources/me_qrcode.jpeg" height="300">
+    <p>欢迎添加作者微信</p>
+    <img src="https://github.com/goforu/vue-weixin-emojis/raw/main/resources/offcial_qrcode.jpg" height="300">
+    <p>使用了此插件的H5小应用</p>
+</div>
