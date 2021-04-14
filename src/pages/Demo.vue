@@ -1,6 +1,6 @@
 <template>
     <div>
-        <EmojiPicker v-model="value" button />
+        <emoji-picker v-model="value" button style="background: #ddd;" height='30vh'/>
         <div>
             <input v-model="value" />
             <button @click="send">发送</button>
@@ -10,17 +10,12 @@
 </template>
 
 <script>
-import EmojiPicker from '../components/EmojiPicker.vue'
-import { string2emoji } from '../util'
+// import EmojiPicker from '../components/EmojiPicker.vue'
+// import { string2emoji } from '../util'
+
 // import '../components/emojiTransform.js'
 
 export default {
-    components:{
-        EmojiPicker
-    },
-    provide:{
-        emojisUrl: '/qqface.png'
-    },
     data(){
         return {
             value: '',
@@ -29,7 +24,7 @@ export default {
     },
     methods:{
         send(){
-            this.msgs.push(string2emoji(this.value))
+            this.msgs.push(this.$string2emoji(this.value))
             this.value = ''
         }
     }

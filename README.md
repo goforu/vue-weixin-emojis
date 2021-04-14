@@ -1,24 +1,34 @@
 # vue-wexin-emojis
 
-## Project setup
+微信表情包插件
+
+![demo](https://github.com/goforu/vue-weixin-emojis/raw/main/resources/demo.gif)
+
+## 安装
 ```
-npm install
+npm i vue-weixin-emojis -S
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+### 引入包
+下载图片素材 [qqface.png](https://github.com/goforu/vue-weixin-emojis/raw/main/public/qqface.png)
+``` javascript
+// 引入安装包和样式
+import WeixinEmojis from 'vue-weixin-emojis'
+import 'vue-weixin-emojis/dist/vue-weixin-emojis.css'
+// 将图片qqface.png放在项目中的静态文件夹中（如: /public 或 /src/statics目录下）
+// url参数改成你放置的图片位置
+Vue.use(WeixinEmojis, {url: 'path/to/qqface.png'})
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 使用
+表情面板组件，展示所有微信表情，点击会自动给value赋上相应表情key值
+``` html
+<emoji-picker v-model="value" height="300px" button/>
+```
+在转换成表情的地方使用以下方法
+``` javascript
+// 需要在vue组件（实例）中调用
+this.value = this.$string2emoji(this.value)
+// 修改已发出的表情，使用以下方法
+this.value = this.$emoji2string(this.value)
+```
