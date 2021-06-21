@@ -5,10 +5,11 @@ const plugins = {
  install(Vue, options) {
   // Let's register our component globally
   // https://vuejs.org/v2/guide/components-registration.html
+  const url = options && options.url || 'https://cdn-9gvbsn1n5046b67b-1301839800.tcloudbaseapp.com/emojis/qqface.png'
   Vue.component("emoji-picker", Vue.extend({ mixins: [EmojiPicker], created: function(){
-    this.url = options.url
+    this.url = url
     }}));
-  Vue.prototype.$string2emoji = genString2emoji(options.url)
+  Vue.prototype.$string2emoji = genString2emoji(url)
   Vue.prototype.$emoji2string = emoji2string
  }
 };
