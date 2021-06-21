@@ -16,12 +16,15 @@ npm i vue-weixin-emojis -S
 // 引入安装包和样式
 import WeixinEmojis from 'vue-weixin-emojis'
 import 'vue-weixin-emojis/dist/vue-weixin-emojis.css'
-// （选填）如果你希望表情图片放在你们的服务器中。
-// 请将图片qqface.png放在项目中的静态文件夹中（如: /public 或 /src/statics目录下）, 
-// 然后将url参数改成你放置的图片的位置，并将注释打开，注意文件夹必须为静态
-// Vue.use(WeixinEmojis, {url: 'path/to/qqface.png'})
+Vue.use(WeixinEmojis)
 ```
-下载图片素材 [qqface.png](https://cdn-9gvbsn1n5046b67b-1301839800.tcloudbaseapp.com/emojis/qqface.png)
+**可选项**
+
+如果你希望表情图片放在你们的服务器中，可将图片qqface.png放在项目的静态文件夹中（如: /public 或 /src/statics目录下）。并将url参数改成你放置的图片的位置。
+``` javascript
+Vue.use(WeixinEmojis, {url: 'path/to/qqface.png'})
+```
+图片素材 [qqface.png](https://cdn-9gvbsn1n5046b67b-1301839800.tcloudbaseapp.com/emojis/qqface.png)
 
 ### 使用
 表情面板组件，展示所有微信表情，点击会自动给value赋上相应表情key值
