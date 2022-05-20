@@ -1,4 +1,6 @@
 # vue-weixin-emojis
+【声明】
+本repo仅可以用于学习用途
 
 微信表情包插件，查看[在线实例](https://codesandbox.io/s/wizardly-curie-h7mn7?file=/src/App.vue)
 
@@ -43,6 +45,4 @@ this.value = this.$emoji2string(this.value)
 <div align=center>
     <img src="https://github.com/goforu/vue-weixin-emojis/raw/main/resources/me_qrcode.jpeg" height="300">
     <p>欢迎添加作者微信</p>
-    <img src="https://github.com/goforu/vue-weixin-emojis/raw/main/resources/offcial_qrcode.jpg" height="300">
-    <p>使用了此插件的H5小应用</p>
 </div>
