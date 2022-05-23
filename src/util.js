@@ -124,7 +124,6 @@ export const qqfaceArr = {
         result = result.replace(new RegExp(`\\[${key.slice(1, -1)}\\]`, 'g'), `<span style="display: inline-block;" class="qqface-wrapper"><img src="${url}" class="qqface qqface${qqfaceArr[key]}"></span>`)
       }
     }
-    console.log(result, keys)
     return result
     }
   }
