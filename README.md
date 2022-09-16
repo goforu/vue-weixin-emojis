@@ -1,6 +1,7 @@
 # vue-weixin-emojis
 【声明】
 本repo仅可以用于学习用途
+cdn已挂，请手动存放图片素材
 
 微信表情包插件，查看[在线实例](https://codesandbox.io/s/wizardly-curie-h7mn7?file=/src/App.vue)
 
@@ -26,7 +27,7 @@ Vue.use(WeixinEmojis)
 ``` javascript
 Vue.use(WeixinEmojis, {url: 'path/to/qqface.png'})
 ```
-图片素材 [qqface.png](https://cdn-9gvbsn1n5046b67b-1301839800.tcloudbaseapp.com/emojis/qqface.png)
+图片素材 [qqface.png](https://github.com/goforu/vue-weixin-emojis/blob/main/public/qqface.png)
 
 ### 使用
 表情面板组件，展示所有微信表情，点击会自动给value赋上相应表情key值
